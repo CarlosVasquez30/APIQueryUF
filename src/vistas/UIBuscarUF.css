@@ -1,0 +1,163 @@
+.App-Buscar-UF{
+    display: flex;
+    
+    height: 65vh;
+    align-items: center;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: #282c34;
+}
+
+.card-UF{
+    margin-right: 5px;
+    margin-bottom: 5px;
+   width: 550px;
+   height: 200px;
+    display: flex;
+    flex-direction: row;
+    color: #00d8ff;
+    background-color: #282c34;
+    border-radius: 20px;
+    justify-content: space-between;
+    font-size : 20px;
+}
+
+.info-card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.info-card a{
+    margin: 1vh;
+    color: #00d8ff;
+}
+
+
+.msj-exito-cc{
+    color: #00d8ff;
+    font-size: calc(1px + 1.5vmin);
+    margin-bottom: 1vh;
+    width: 40vw;
+    height: 10vh;
+    border-radius: 20px ;
+    background-color: #282c34;
+    border: 0px solid #282c34;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.msj-exito-cc div{
+    width: 30vw;
+    border-radius: 20px ;
+    border: 0px solid #282c34;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.menu-item button{
+    width: 100%;
+    height: 100%;
+    
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #00d8ff;
+    background-color: #282c34;
+    color: #00d8ff;
+    font-size: calc(1px + 1.5vmin);
+}
+
+.menu-item button:hover{
+    background-color: #00d8ff;
+    color: #282c34;
+    cursor: pointer;
+    border: 1px solid #282c34;
+}
+
+.tarjetas-UF{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+    
+    margin-top: 10px;
+}
+
+
+.input-search-uf{
+    width: 40px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-left: 10px;
+    border: 1px solid #282c34;
+    padding-left: 10px;
+    background-color: #282c34;
+    color: #00d8ff;
+}
+
+.input-search-uf::placeholder{
+    color: #00d8ff;
+}
+
+.btn-search-uf{
+    width: 450px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+
+    border: 1px solid #282c34;
+    padding-left: 10px;
+    background-color: #282c34;
+    color: #00d8ff;
+}
+
+.btn-search-uf:hover{
+    background-color: #00d8ff;
+    color: #282c34;
+    cursor: pointer;
+    border: 1px solid #282c34;
+}
+
+@media screen and (max-width: 768px) {
+    .tarjetas-UF{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        margin-top: 10px;
+    }
+
+    .card-UF{
+        margin-bottom: 5px;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        color: #00d8ff;
+        background-color: #282c34;
+        border-radius: 20px;
+        justify-content: space-between;
+        font-size : 20px;
+    }
+
+    .App-Buscar-UF{
+        display: flex;
+        
+        height: 100vh;
+        align-items: center;
+        flex-direction: column;
+        font-size: calc(10px + 2vmin);
+        color: #282c34;
+    }
+
+    
+}
